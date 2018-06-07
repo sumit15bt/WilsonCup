@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WilsonCup</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wc_detail"><![CDATA[ATHELETE COMMITTE , DEPT. OF PHYSICAL EDUCATION & NAINI AGRICULTURE INSTITUTE, SHUATS]]></string>
+    <string name="wc_detail2">Presents</string>
+    <string name="wc_detail3">NIGHT CRICKET (MEN/WOMEN) TOURNAMENT - 2018</string>
+    <string name="wc_detail4">In Memory of</string>
+    <string name="wc_detail5">Late. Prof. (Dr.) Wilson Kispotta</string>
+    <string name="wc_rules">1. Tournament will be on knock-out basis\n2. Timming will be from 5:30pm to 10:30pm\n3. 8+2 per team are allowed ,only bonafied students and staffs are allowed to participate\4. Each match will be played 8 overs for men and 6 overs for women, per innings\n5.Canvas/Tennis ball will be used\n6. Entry fee will be Rs. 500/- each team,last date of entry - 20/03/18\n7. Fixtures will be drawn on 21.03.18. No entry will be allowed after declaration of fixtures.\n8. Matches will be played on Basketball Court.\n9. All matches will be palyed under the rules and regulations prepared by Organising Committee\n10. All team members shall be in proper sports kit (T-shirt,Lower and Sport Shoes only)\n11. If there will be any dispute in the tournament last decision will be taken by the chairman,Athletics Committee after consulting the Organising committee</string>
+    <string name="wc_command">Tournament  Rule ,Regulation and other info. as follows</string>
+    <string name="about_us">Computer Science Deptartment,\nS.I.E.T, SHUATS naini-Allahabad</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="gotit">Got It</string>
+    <string name="title_activity_location">Map</string>
+    <string name="update">Update</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.in.radhe_krishna.wc.Notices"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:text="- DISCLOSURE -"
+        android:textAlignment="center"
+        android:textColor="#fff"
+         />
+
+        <ListView
+            android:layout_marginTop="15dp"
+            android:id="@+id/notices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollIndicators="right"
+            />
+ </LinearLayout>

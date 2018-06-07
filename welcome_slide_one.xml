@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitCenter"
+            android:layout_margin="15dp"
+            android:src="@drawable/torintro" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/wc_detail"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:textColor="#127b0b"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/wc_detail2"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/wilson" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:textSize="14dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/wc_detail3"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold|italic"
+                android:layout_height="wrap_content"
+                android:text="@string/wc_detail4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#05ecc5"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/wc_detail5"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
